@@ -17,7 +17,7 @@
     <section>
         <h2>Formulaire de modification</h2>
         <!-- Uniquement modifier le code après cette ligne. -->
-        <form id="formRect" action="https://kode.ch/getpost/">
+        <form id="formRect" action="https://kode.ch/getpost/" method="post">
             <ul>
                 <li>
                     <label for="hauteur">Hauteur</label>
@@ -39,6 +39,7 @@
                 <li>
                     <fieldset>
                         <legend>Couleur du texte</legend>
+
                         <input type="radio" name="color" id="noir" value="black" checked/>
                         <label for="noir">Noire</label>
 
@@ -65,8 +66,8 @@
                     <textarea rows="2" cols="20" name="txt" id="txt">Votre texte</textarea>
                 </li>
                 <li>
-                    <button class="left" type="reset" name="btReset">R&eacute;initialiser</button>
-                    <button class="right" type="submit">Modifier le rectangle</button>
+                    <button type="reset">R&eacute;initialiser</button>
+                    <button type="submit">Modifier le rectangle</button>
                 </li>
             </ul>
         </form>

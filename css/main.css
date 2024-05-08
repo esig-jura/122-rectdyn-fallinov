@@ -162,6 +162,7 @@ textarea {
     border: none;
     font-size: inherit;
     color: inherit;
+    max-width:100%;
 }
 
 input[type="text"],
